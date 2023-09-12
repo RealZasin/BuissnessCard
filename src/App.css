@@ -1,42 +1,64 @@
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+  margin: 0rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.EmailBtn {
+background-color: #ffffff;
+color: black;
+text-align: center;
+
+
+}
+
+.LinkedInBtn {
+background-color: #5093e2;
+text-align: center;
+display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.LinkedInBtn img {
+  margin-right: 0.5rem;
+  
+  
+}
+
+.MainBtns {
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  max-width: 20rem;
+  
+}
+
+.PersonalInfo {
   text-align: center;
+  margin: auto;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.PersonalInfo h2 { 
+margin: 0;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.PersonalInfo h4 {
+  margin: 0;
+  color: #e7b692 ;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.PersonalInfo p{
+  margin: 0rem;
 }
 
-.card {
-  padding: 2em;
+.AboutInt {
+  margin: 2rem 6rem 2rem 6rem;
+  max-width: 18rem;
 }
 
-.read-the-docs {
-  color: #888;
-}
+
+
