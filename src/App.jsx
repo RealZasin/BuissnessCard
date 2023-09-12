@@ -1,4 +1,3 @@
-import { useState } from "react";
 import "./App.css";
 import Chief from "./assets/masterchief.png";
 import LinkedIn from "./assets/linkedin (3).svg"
@@ -25,13 +24,13 @@ function App() {
         <div className="AboutInt">
           <h3>About</h3>
           <p>
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
             magnam accusamus veniam ut, nostrum excepturi error! Neque,
             similique quo.
           </p>
           <h3>Interests</h3>
           <p>
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
             perspiciatis unde exercitationem rerum voluptatem natus illum.
           </p>
         </div>
